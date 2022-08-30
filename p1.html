@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference</title>
+</head>
+<style>
+    h1{
+        color: green;
+    }
+    h3{
+        color:rgb(37, 15, 206);
+    }
+    h4{
+        color:purple;
+    }
+    li{
+        color:rgb(255, 0, 0);
+    }
+    li {
+      color: rgb(25, 78, 212);
+    }
+    body {
+      background-color: rgb(44, 199, 199);
+    }
+    mark {
+      color: red;
+      background-color: yellow;
+    }
+  </style>
+</style>
+<body>
+    <h1>
+        <b>
+            Linux distributions
+        </b>
+    </h1>
+        <section>
+        Since its initial development, Linux has adopted the copyleft stipulations of the Free Software Foundation which originated the GNU GPL. The GPL says that anything taken for free and modified must be distributed for free. In practice, if Linux or other GNU-licensed components are developed or modified to create a new version of Linux, that new version must be distributed for free. This prevents a developer or other groups from profiting unfairly from the freely available work of others.
+        <br>
+        Hundreds of different Linux versions, also known as distributions or distros, are available. Distributions usually distinguish themselves from the pack by addressing a specific goal, philosophy, function or target market.
+        <br>
+        There are distributions tailored for specific target functions, such as servers, desktops, gaming, security, or embedded devices including Raspberry Pi systems. Most modern distributions are precompiled and ready to use, while others like Gentoo Linux consist of source code that a user can compile locally during initial installation to optimize their system configuration. Knoppix Linux is one of many distros used to recover damaged hard drives and perform other technical support tasks. Information security professionals use Kali Linux for penetration testing and other security-related tasks.
+        <br>
+        Linux has become an important component of automaker entertainment systems. Many automakers have joined Automotive Grade Linux (AGL), an open source project hosted by the Linux Foundation. For example, Toyota and Lexus vehicles use AGL for their infotainment systems.
+        <br>
+        Linux distributions may be community-developed, like Debian, Slackware and Gentoo. Other distributions are commercial and intended for enterprise use, including Red Hat Enterprise Linux and SUSE Linux Enterprise Server. Many distributions use a combination of community- and corporate-supported development, such as Red Hat's Fedora, openSUSE from SUSE and Ubuntu from Canonical.
+        Linux distros
+        This chart highlights nine popular Linux distributions.
+        <br>
+        The GNU GPL does not prohibit intellectual ownership, and it is commonplace for creators of Linux components to hold copyrights on the various components. The GNU GPL ensures that those components remain free and freely distributed. While the software remains free, it is common for some commercial distributions to charge for value-added services, such as support or custom development services.
+        </section>
+        <br>
+        <h2>
+        <b>
+            Linux components and terminology
+        </b>
+        </h2>
+        <br>
+        The Linux OS system incorporates several different components, including:
+        <br>
+            <h3>
+                    Bootloader.
+            </h3>
+            A bootloader is responsible for managing the boot process of the computer and for starting the Linux kernel. It can also be used to manage systems that boot more than one OS.
+            <br>
+            <h3>
+                    Kernel.
+            </h3>
+            The core of the Linux system, the kernel handles network access, schedules processes or applications, manages basic peripheral devices and oversees all file system services. The Linux kernel is the software that interfaces directly with the computer hardware.
+            <br>
+            <h3>
+                    Init system.
+            </h3>
+            The first process to run once the kernel is loaded. A process is an instance of a program running on a computer, and the init system initializes the system to enable it to run other processes. Init is a daemon program that acts as the parent process to all other processes running on the system. Init can be configured to start specific processes at system initialization. For example, when the system will be running a web server the init system can be configured to load all necessary web server software.
+            <br>
+            <h3>
+                    Daemons.
+            </h3>
+            This is a program that runs in the background, handling requests for a service. A web server running on a Linux server depends on a daemon, usually named httpd, to listen for web server requests.
+            <br>
+            <h3>
+                    Graphical server.
+            </h3> This is the software that controls how graphics are displayed on a computer. Without a graphical server, users can only interact with the Linux system through a command-line interface. The X Window System, also known as X11 or X, is the most common graphical server for Linux, though not the only one. X runs as a server daemon on the system and is called upon by applications when graphical output is required.
+            <br>
+            <h3>
+                    Desktop environment.
+            </h3> This is the collection of applications and user interface controls with which users interact when using Linux as a desktop platform. Access to the desktop environment is usually controlled through the X Window System or another graphical system. Each desktop environment defines its own look, including the way graphical elements like windows, pull-down menus and files are displayed and manipulated. The desktop environment will also include a set of default applications for managing files and folders, text editing, running a command-line session and other common tasks.
+            <br>
+            <h3>
+                    Applications.
+            </h3> This is the software that is installed during and after the initial Linux installation. Most Linux distributions include thousands of different applications, including both for a networked server and for desktop use.
+        <br>
+        <br>
+        
+        
+        While these components are included in most Linux distributions, they are not necessarily part of every deployed Linux system. For example, a Linux-based server may not require a graphical server, desktop environment or applications.
+        <br>
+        But it is really the many outside developers and GNU projects that offer high-level functions to the Linux kernel to provide a fully realized OS. For example, there are modules to provide a command-line interface, implement a GUI, manage security, and offer video input or audio services -- each of which can be modified and optimized to form unique distributions for specific tasks.
+        <br>
+        Desktop environments can also vary widely with different approaches to GUI design and default applications. The two most popular desktop environments are:
+        <br>
+        <br>
+            The GNOME desktop environment, which is included in most popular Linux distributions, is the default desktop for many. Designed to be easy to use and reliable, GNOME spawned other desktop environment projects, including MATE, Cinnamon and Unity.
+            <br>
+            The KDE desktop environment is the primary alternative to GNOME. KDE is also designed to be easy to use and reliable. It has spawned other projects, including the Trinity Desktop Environment.
+        <br>
+        <br>
+        Package manager software typically adds, updates or removes software components under the Linux OS. Package managers enable users to install additional software not included with their distributions. Examples of software package managers include RPM Package Manager, dpkg, OpenPKG and Zero Install.
+        <br>
+        <br>
+        How the Linux operating system works
+        
+        The Linux OS follows a modular design that is the key to its many variations and distributions. All Linux distributions are based on the Linux kernel, but they can differ depending on factors such as:
+        <br>
+        <br>
+            <h3>
+                    Kernel version.
+            </h3> Distributions can be configured with more recent versions to incorporate newer features or with older versions to be more stable.
+            <h3>
+                    Kernel modules.
+                </h3>
+                This is software that can be loaded and unloaded into the kernel to extend functionality without rebooting. Kernel modules are often used to support:
+                device drivers, which use code that controls how attached devices operate;
+                <br>
+                file system drivers, which use code that controls how the kernel works with different file systems; and
+                <br>
+                system calls, which use code that controls how programs request services from the kernel.
+        
+        <h3>
+            Configuration options.
+        </h3> Linux kernels compiled with configuration options set to include only device or file system drivers are used for some specialized distributions; for example, compiling a kernel for a wireless device without any wired network device drivers.
+        <br>
+        <h3>
+                The Linux kernel
+        </h3> is the one thing that all systems running Linux have in common. Linux works by:
+        <br>
+        <br>
+            Loading and booting a Linux kernel.
+            <br>
+            <br>
+            Once booted, the kernel manages all system input and output. The system is initialized, and processes can be started.
+            <br>
+            <br>
+            As system processes are started, the system can be used for processes that include network server functions, commands entered interactively via command line, desktop applications or any application or program.
+        <br>
+        <br>
+        <br>
+        While the kernel may be almost identical -- with some divergence for configuration and compilation differences -- the user experience can vary widely, depending on how the Linux system is being used. For example, some Linux use cases with widely different user experiences include:
+        <br>
+        <h3>
+                Desktop productivity
+            </h3>
+        systems, such as those used by software developers or other professionals. Software development workstations may be optimized for performance, while desktops for administrative professionals may be optimized for use of desktop productivity tools.
+        <br>
+        <h3>
+                Network servers
+            </h3>
+        may not even include a terminal for direct access. These headless servers are managed remotely through network terminal or Windows sessions. Servers may be used by many but should be directly accessed only by authorized system admins.
+        <h3>
+                Thin clients
+        </h3>
+            nable users to access a rich desktop environment from a lightweight device. This includes Raspberry Pi single-card computers and Google Chromebooks.
+        <br>
+        <br>
+        When using Linux with a desktop environment as a GUI, Linux works much the same as any GUI-based OS. Applications and other resources can be opened by clicking on icons, and files can be moved, copied or deleted using a mouse or trackpad.</h1>
+        <br>
+        <br>
+        <footer>
+            <b>
+                <font size =-1>
+                    Page
+                </font>
+            </b>
+        <img src="pages-icon.png"alt="page icon" height='20' width='20'/>
+        <a href="index.html"><< Prev</a>
+        <a href="p1.html">2.</a>
+        </footer>
+</body>
+</html>
